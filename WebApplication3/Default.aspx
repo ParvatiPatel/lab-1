@@ -51,23 +51,25 @@
                 <form class="form" id="form1" runat="server">
                     <div class="form-group">
 
-                        <asp:Label ID="FirstNameLable" Text="First Name" runat="server" />
-                        <asp:TextBox CssClass="form-control" ID="FirstNameTextBox" runat="server" />
+                        <asp:Label ID="FirstNameLable" Text="First Name" runat="server" require="true" />
+                        <asp:TextBox CssClass="form-control" ID="FirstNameTextBox" runat="server" CausesValidation="True" />
                     </div>
                     <div class="form-group">
 
-                        <asp:Label ID="LastNameLabel" Text="Last Name" runat="server" />
-                        <asp:TextBox CssClass="form-control" ID="LastNameTextBox" runat="server" />
+                        <asp:Label ID="LastNameLabel" Text="Last Name" runat="server" require="true" />
+                        <asp:TextBox CssClass="form-control" ID="LastNameTextBox" runat="server" CausesValidation="True" />
                     </div>
 
                     <div class="form-group">
 
-                        <asp:Label ID="AgeLabel" Text="Age" runat="server" />
-                        <asp:TextBox CssClass="form-control" ID="AgeTextBox" runat="server" />
+                        <asp:Label ID="AgeLabel" Text="Age" runat="server" require="true" />
+                        <asp:TextBox CssClass="form-control" ID="AgeTextBox" runat="server" CausesValidation="True" />
                     </div>
+                    <asp:RangeValidator ID="AgeRangeValidator" ControlToValidate="AgeTextBox" runat="server" ErrorMessage="Please Enter Valid Age Range Between 1 and 113 " MinimumValue="1" MaximumValue="113" Type="Integer"></asp:RangeValidator>
                     <asp:Button CssClass="btn btn-primary" ID="SubmitButton" Text="Submit" runat="server" OnClick="SubmitButton_Click" />
                     <br />
-                    <hr />
+                    <hr 
+                    
 
                     <div class="form-group">
 

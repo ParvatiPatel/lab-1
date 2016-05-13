@@ -22,3 +22,4 @@ C:\Users\Parvati\Desktop\RapidApplication\WebApplication3\WebApplication3\bin\En
 C:\Users\Parvati\Desktop\RapidApplication\WebApplication3\WebApplication3\bin\EntityFramework.SqlServer.dll
 C:\Users\Parvati\Desktop\RapidApplication\WebApplication3\WebApplication3\bin\EntityFramework.xml
 C:\Users\Parvati\Desktop\RapidApplication\WebApplication3\WebApplication3\bin\EntityFramework.SqlServer.xml
+C:\Users\Parvati\Desktop\RapidApplication\WebApplication3\WebApplication3\bin\AspNet.ScriptManager.jQuery.dll
